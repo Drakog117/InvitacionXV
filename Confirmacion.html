@@ -33,11 +33,12 @@
     <section class="confirmacion" id="confirmacion" data-aos="fade-up">
       <h1><i class="bi bi-envelope-heart"></i> Confirma tu asistencia <i class="bi bi-envelope-heart"></i></h1>
       <p>Por favor, llena el siguiente formulario para confirmar tu asistencia a mis XV años:</p>
-      <div class="formularioGoogle">
-        <iframe src="https://forms.gle/VEczjxWLHJUH4Pex7"
-                width="100%" height="600"
-                frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+      <div class="formularioCustom">
+        <input type="tel" id="telefono" placeholder="Ingresa tu número de teléfono" />
+        <button onclick="buscarInvitado()">Buscar</button>
+        <div id="resultado" style="margin-top:20px;"></div>
       </div>
+      
     </section>
   </main>
 

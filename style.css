@@ -354,6 +354,58 @@ section h1 {
   line-height: 1.6;
   opacity: 0.9;
 }
+/* Formulario personalizado */
+.formularioCustom {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  max-width: 500px;
+  width: 90%;
+  margin: 40px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.formularioCustom input,
+.formularioCustom select {
+  font-size: 1.2em;
+  padding: 12px 20px;
+  width: 100%;
+  border: 2px solid #1976D2;
+  border-radius: 12px;
+  outline: none;
+  background: #fff;
+  color: #194571;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.formularioCustom button {
+  background-color: #1976D2;
+  color: white;
+  font-size: 1.2em;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.formularioCustom button:hover {
+  background-color: #145ca3;
+  transform: scale(1.03);
+}
+
+#resultado p {
+  font-size: 1.2em;
+  color: #194571;
+  text-align: center;
+  margin: 0;
+}
 
 
 
