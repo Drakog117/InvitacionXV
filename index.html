@@ -9,6 +9,7 @@
   <script defer src="script.js"></script>
 </head>
 <body>
+  <audio id="musicaFondo" src="musica.mp3" autoplay loop></audio>
 
   <header>
     <button class="menuButton" aria-label="Abrir menú">
@@ -33,7 +34,7 @@
       <h1>Erika Jiménez</h1>
       <h3>Sábado 6 de Septiembre</h3>
       <p>
-        "Como en un cuento de hadas, cuando el reloj marque las 5:30, la magia comenzará...
+        "Como en un cuento de hadas, cuando el reloj marque las 5:00, la magia comenzará...
         Acompáñame a vivir mi noche de ensueño en mis XV años."
       </p>
       <a href="Confirmacion.html" class="botonConfirmar">Confirmar asistencia</a>
@@ -57,7 +58,7 @@
 
       <div class="infoIcono">
         <img src="img/ubicacion.png" alt="Icono ubicación">
-        <p><strong>Salón Rancho la Tapatía</strong> (en la capilla)</p>
+        <p><strong>Lienzo charro la tapatía</strong> (en la capilla)</p>
       </div>
 
       <div class="infoIcono">
@@ -97,6 +98,14 @@
         <div class="evento">
           <div class="hora"><strong>20:30</strong><span>pm</span></div>
           <div class="detalle">Vals</div>
+        </div>
+                <div class="evento">
+          <div class="hora"><strong>22:45</strong><span>pm</span></div>
+          <div class="detalle">Sorpresa</div>
+        </div>
+        <div class="evento">
+          <div class="hora"><strong>23:45</strong><span>pm</span></div>
+          <div class="detalle">Sorpresa 2</div>
         </div>
       </div>
     </section>
@@ -160,6 +169,11 @@
   <script>
     AOS.init({ duration: 1200, once: true });
   </script>
+  <footer class="footer-marquee">
+    <div class="marquee">
+      <span>• No se aceptan niños • El color azul esta reservado •</span>
+    </div>
+  </footer>
 
 </body>
 </html>
